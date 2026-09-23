@@ -21,6 +21,24 @@ Nigeria ranks **#2 globally in crypto adoption** (Chainalysis). Millions of Nige
 
 ---
 
+## 📸 Visual Showcase & Live App Tour
+
+| Feature | Preview |
+| :--- | :--- |
+| **Gidi Radar Map**<br>Interactive Leaflet map with dark tiles and glowing pins across Mainland & Island. | ![Gidi Radar Map](docs/screenshots/loc_radar.png) |
+| **Under ₦10k Food Radar**<br>Dual NGN/SOL pricing, student-friendly spots, and exclusive web3 perks. | ![Under 10k Food Radar](docs/screenshots/loc_under10k.png) |
+| **Social Ticketing & Blinks**<br>Dialect Solana Actions with instant 1-tap ticket passes and anti-scalp cNFTs. | ![Events & Blinks](docs/screenshots/loc_events.png) |
+| **Explorer Passport (PoPV)**<br>Dynamic physical NFC/QR check-in counter and collectible cNFT badges. | ![Explorer Passport](docs/screenshots/loc_passport.png) |
+| **Founder Revenue & Economics**<br>Real-time 3.5% automated fee treasury tracking with cash-out simulation. | ![Founder Revenue](docs/screenshots/loc_treasury.png) |
+
+---
+
+## 🇳🇬 Superteam Nigeria Grant Proposal
+For full architecture breakdown, market sizing, milestone delivery schedule, and budget allocation:
+👉 **[Read the Full Superteam Nigeria Grant Proposal](GRANT_PROPOSAL.md)**
+
+---
+
 ## 🛠️ Architecture & Tech Stack
 
 ```
