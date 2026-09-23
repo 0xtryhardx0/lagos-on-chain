@@ -47,7 +47,15 @@ class LagosApp {
 
     // Update Counter badge
     const countAllEl = document.getElementById("count-all");
-    if (countAllEl) countAllEl.textContent = window.LAGOS_DATA.spots.length;
+    if (countAllEl && window.LAGOS_DATA && window.LAGOS_DATA.spots) {
+      countAllEl.textContent = window.LAGOS_DATA.spots.length;
+    }
+    // Check URL query parameters for direct tab navigation
+    const urlParams = new URLSearchParams(window.location.search);
+    const initialTab = urlParams.get("tab");
+    if (initialTab && ["radar", "under10k", "events", "passport", "treasury"].includes(initialTab)) {
+      this.switchTab(initialTab);
+    }
 
     console.log("⚡ Lagos On Chain (LOC) Initialized Successfully.");
   }
