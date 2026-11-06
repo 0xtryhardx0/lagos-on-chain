@@ -105,4 +105,4 @@ Visit **`http://localhost:8080`** in your browser.
 
 ## 📄 License
 
-MIT License © 2026 Erioluwa Ayodeji & Lagos On Chain Contributors.
+Proprietary & Confidential — All Rights Reserved.
